@@ -56,16 +56,3 @@ function publishStream() {
     });
     stream.publish();
 }
- 
-//Playing stream
-function playStream() {
-    session.createStream({
-        name: "stream",
-        display: document.getElementById("play"),
-    }).play();
-}
- 
-//Stopping stream
-function stopPublish() {
-    stream.stop();
-}
